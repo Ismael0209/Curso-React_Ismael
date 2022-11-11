@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { CounterApp } from './CounterApp';
+import { FirstApp } from './FirstApp';
+//import  {HelloWorldApp}  from './HelloWorldApp';
+import './styles.css';
 
 
-function App() {
-    //document.createElement...
-    return (<h1>Hola mundo , Hola mami!!!</h1>);
-}
-
+//keke
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <App />
+        <CounterApp value={20}></CounterApp>
     </React.StrictMode>
 );
+
+
