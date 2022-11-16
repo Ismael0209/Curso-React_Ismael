@@ -1,4 +1,3 @@
-
 const heroes = [
     {
         id: 1,
@@ -28,9 +27,3 @@ const heroes = [
 ];
 
 export default heroes;
-
-
-// export {
-//     heroes as default,
-//     owners
-// }
